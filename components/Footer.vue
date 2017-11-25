@@ -5,8 +5,7 @@
 <template lang="pug">
 
 .content
-  p About
-  p {{ this.$store.state.count }}
+  p Footer
 
 </template>
 
@@ -17,7 +16,7 @@
 <script>
 
 export default {
-  name: 'about',
+  name: 'footer',
 }
 
 </script>

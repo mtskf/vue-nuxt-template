@@ -5,8 +5,8 @@
 <template lang="pug">
 
 .content
-  p About
-  p {{ this.$store.state.count }}
+  a(href='/') Home
+  a(href='/about') About
 
 </template>
 
@@ -15,11 +15,9 @@
 <!-- ///////////// -->
 
 <script>
-
 export default {
-  name: 'about',
+  name: 'menu',
 }
-
 </script>
 
 <!-- ////// -->
