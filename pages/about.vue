@@ -2,11 +2,11 @@
 <!-- Template -->
 <!-- //////// -->
 
-<template>
+<template lang="pug">
 
-<div>
-  <p>About</p>
-</div>
+.content
+  p About
+  p {{ this.$store.state.count }}
 
 </template>
 
@@ -24,5 +24,5 @@ export default {
 <!-- Styles -->
 <!-- ////// -->
 
-<style>
+<style lang="scss">
 </style>
