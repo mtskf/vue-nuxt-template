@@ -88,5 +88,14 @@ typings/
 # dotenv environment variables file
 .env
 
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Backpack build
+build
+
 
 # End of https://www.gitignore.io/api/node,macos
