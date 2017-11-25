@@ -21,6 +21,7 @@ module.exports = {
   ** Add axios globally
   */
   build: {
+    vendor: ['axios'],
     /*
     ** Run ESLINT on save
     */

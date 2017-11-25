@@ -6,6 +6,7 @@
 
 .content
   p Index
+  p {{ this.currentDate }}
 
 </template>
 
@@ -14,8 +15,15 @@
 <!-- ///////////// -->
 
 <script>
+
+import axios from '../plugins/axios'
+
 export default {
   name: 'index',
+  async asyncData() {
+    const { data } = await axios.get('/api/date/now')
+    return { currentDate: data }
+  },
 }
 </script>
 

@@ -12,6 +12,7 @@
   },
   "author": "Luke Harback",
   "dependencies": {
+    "axios": "^0.17.1",
     "cross-env": "^5.0.1",
     "express": "^4.15.4",
     "nuxt": "^1.0.0-rc11",
