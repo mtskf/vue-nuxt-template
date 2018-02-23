@@ -4,7 +4,7 @@ Created to quickly start a new Vue / nuxt app with my standard defaults
 
 ### Dependencies
 
-[npm](https://www.npmjs.com), dependency manager for node
+[yarn](https://yarnpkg.com/en/docs/install), dependency manager for node
 
 ### Project setup
 
@@ -19,6 +19,8 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 Start developing
 ```
-npm i         // First time only
-npm run dev
+yarn
+```
+```
+yarn run dev
 ```
