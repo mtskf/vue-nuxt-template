@@ -14,6 +14,11 @@ module.exports = {
     ],
   },
   /*
+  ** Folder for front-end
+  */
+  srcDir: 'app/',
+
+  /*
   ** Global CSS
   */
   css: ['~/assets/css/main.css'],
